@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Drawing;
 using System.Timers;
 using System.Windows.Forms;
@@ -20,8 +20,6 @@ namespace BitmapTransSample
 
         protected override void OnPaint(PaintEventArgs e)
         {
-          //  Bitmap bmp = new Bitmap("ball.bmp");
-
             Graphics FormG = this.CreateGraphics();
             bitmap2.SetResolution(FormG.DpiX, FormG.DpiY);
 
