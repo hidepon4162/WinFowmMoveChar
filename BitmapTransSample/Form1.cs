@@ -32,7 +32,7 @@ namespace BitmapTransSample
             }
 
             e.Graphics.DrawImage(bitmap2, x, 0);
-            e.Graphics.DrawImage(bitmap2, x * 1.2f,100);
+            e.Graphics.DrawImage(bitmap2, x * 1.2f, 100);
             e.Graphics.DrawImage(bitmap2, x * 1.5f, 200);
 
             e.Graphics.DrawImage(bitmap2, 100, y * 1.2f);
@@ -46,13 +46,13 @@ namespace BitmapTransSample
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+
             bitmap1 = new Bitmap(Properties.Resources.pie1);
             bitmap2 = new Bitmap(Properties.Resources.pie2);
 
             // タイマーの生成
             var timer = new System.Timers.Timer();
-            timer.Elapsed += new ElapsedEventHandler(OnElapsed_TimersTimer);
+            timer.Elapsed += OnElapsed_TimersTimer;
             timer.Interval = 20;
 
             // タイマーを開始
