@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Timers;
 using System.Windows.Forms;
 
 namespace BitmapTransSample
@@ -51,15 +50,15 @@ namespace BitmapTransSample
             bitmap2 = new Bitmap(Properties.Resources.pie2);
 
             // タイマーの生成
-            var timer = new System.Timers.Timer();
-            timer.Elapsed += OnElapsed_TimersTimer;
+            Timer timer = new Timer();
             timer.Interval = 20;
+            timer.Tick += Update;
 
             // タイマーを開始
             timer.Start();
         }
 
-        private void OnElapsed_TimersTimer(object sender, ElapsedEventArgs e)
+        private void Update(object sender, EventArgs e)
         {
             if (x > 300)
             {
