@@ -5,11 +5,11 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapTransSample", "BitmapTransSample\BitmapTransSample.csproj", "{80EB5C5D-1A1D-4473-B78E-854840AA0A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDrow", "SimpleDrow\SimpleDrow.csproj", "{8587AF14-C3BC-44DA-8183-530FAFA0300D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMoving", "SimpleMoving\SimpleMoving.csproj", "{8587AF14-C3BC-44DA-8183-530FAFA0300D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSample", "SimpleSample\SimpleSample.csproj", "{FFCE8C79-9652-4F1D-BC3D-1CA6B38A65F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSample", "SimpleSample\SimpleSample.csproj", "{FFCE8C79-9652-4F1D-BC3D-1CA6B38A65F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphClassLibrary", "GraphClassLibrary\GraphClassLibrary.csproj", "{5BDD8D22-804B-47A5-9663-5783EC4264CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphClassLibrary", "GraphClassLibrary\GraphClassLibrary.csproj", "{5BDD8D22-804B-47A5-9663-5783EC4264CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

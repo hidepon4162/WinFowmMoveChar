@@ -1,4 +1,3 @@
-
 using GraphClassLibrary;
 
 namespace SimpleSample
