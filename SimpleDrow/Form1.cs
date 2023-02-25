@@ -20,7 +20,7 @@ namespace SimpleDrow
             pie = new GraphPicture(this, bitmap, position);
 
             // タイマーの生成
-            var timer = new Timer
+            Timer timer = new Timer
             {
                 Interval = 100
             };
@@ -33,7 +33,7 @@ namespace SimpleDrow
 
         private void Update(object sender, EventArgs e)
         {
-            var x = pie.Position.X;
+            int x = pie.Position.X;
             x += 10;
             pie.Position = new Point(x, pie.Position.Y);
 

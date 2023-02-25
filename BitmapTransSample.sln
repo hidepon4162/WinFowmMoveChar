@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapTransSample", "Bitmap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDrow", "SimpleDrow\SimpleDrow.csproj", "{8587AF14-C3BC-44DA-8183-530FAFA0300D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSample", "SimpleSample\SimpleSample.csproj", "{FFCE8C79-9652-4F1D-BC3D-1CA6B38A65F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphClassLibrary", "GraphClassLibrary\GraphClassLibrary.csproj", "{5BDD8D22-804B-47A5-9663-5783EC4264CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8587AF14-C3BC-44DA-8183-530FAFA0300D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8587AF14-C3BC-44DA-8183-530FAFA0300D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8587AF14-C3BC-44DA-8183-530FAFA0300D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCE8C79-9652-4F1D-BC3D-1CA6B38A65F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCE8C79-9652-4F1D-BC3D-1CA6B38A65F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCE8C79-9652-4F1D-BC3D-1CA6B38A65F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCE8C79-9652-4F1D-BC3D-1CA6B38A65F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDD8D22-804B-47A5-9663-5783EC4264CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDD8D22-804B-47A5-9663-5783EC4264CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDD8D22-804B-47A5-9663-5783EC4264CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDD8D22-804B-47A5-9663-5783EC4264CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

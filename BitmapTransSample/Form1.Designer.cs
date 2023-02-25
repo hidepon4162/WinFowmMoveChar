@@ -35,7 +35,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1298, 956);
+            this.ClientSize = new System.Drawing.Size(854, 508);
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
