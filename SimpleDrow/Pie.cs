@@ -3,27 +3,26 @@ using System.Windows.Forms;
 
 namespace SimpleDrow
 {
-    internal class Pie
+    class GraphPicture
     {
-        Form form;
+        Control baseControl;
 
         public Point Position { get; set; }
-        public Bitmap PieBitmap { get; }
+        public Bitmap Bitmap { get; }
 
-        public Pie(Form form, Point position)
+        public GraphPicture(Control baseControl,Bitmap bitmap, Point position)
         {
-            this.form = form;
+            this.baseControl = baseControl;
             Position = position;
-
-            PieBitmap = new Bitmap(Properties.Resources.pie2);
+            Bitmap = new Bitmap(bitmap);
         }
 
         public void OnPaint(PaintEventArgs e)
         {
-            Graphics formGraph = form.CreateGraphics();
-            PieBitmap.SetResolution(formGraph.DpiX, formGraph.DpiY);
+            var formGraph = baseControl.CreateGraphics();
+            Bitmap.SetResolution(formGraph.DpiX, formGraph.DpiY);
 
-            e.Graphics.DrawImage(PieBitmap, Position);
+            e.Graphics.DrawImage(Bitmap, Position);
         }
     }
 }
